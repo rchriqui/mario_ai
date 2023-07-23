@@ -1,0 +1,65 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments (if used)
+venv/
+env/
+*.env
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore any logs or temporary files
+logs/
+*.log
+*.log.*
+*.tmp
+
+# Ignore system-specific or hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled or build artifacts
+*.o
+*.so
+*.pyd
+*.dll
+*.exe
+*.out
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+pip-log.txt
+
+# Ignore saved models
+models/
+
+# Ignore any sensitive or private files
+credentials.ini
+secrets.yml
+
+# Ignore any large data files or datasets (if applicable)
+data/
+*.csv
+*.json
+
+# Ignore any environment or dependency files
+requirements.txt
+requirements-dev.txt
+
+# Ignore any documentation files or generated documentation
+docs/
+*.html
+*.pdf
+*.h
+**/*.h
+
+# Ignore any other files or directories not necessary for version control
+# Add them here
